@@ -1,0 +1,140 @@
+# translation of kio_perldoc.po to Français
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
+# Joëlle Cornavin <jcornavi@club-internet.fr>, 2009.
+# xavier <xavier.besnard@neuf.fr>, 2013, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_perldoc\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-14 00:48+0000\n"
+"PO-Revision-Date: 2022-07-13 21:50+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 22.04.3\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>Aucune page demandée</title><body>Aucune page n'a été "
+"demandée. Vous pouvez rechercher :<ul><li>des fonctions à l'aide de "
+"« perldoc:/functions/foo »</li>\n"
+"\n"
+"<li>des rubriques de questions fréquentes à l'aide de « perldoc:/faq/"
+"search_terms »</li><li>Tous les autres documents « perldoc » utilisant le "
+"nom du document, comme<ul><li><a href='perldoc:/perlreftut'>perldoc:/"
+"perlreftut</a></li><li>ou <a href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</"
+"a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>Aucune documentation pour %1</title><body> Impossible de "
+"trouver de la documentation pour <b>%2</b></body></html>\n"
+
+#: perldoc.cpp:139
+#, kde-format
+msgid "Error in perldoc"
+msgstr "Erreur dans « perldoc »"
+
+#: perldoc.cpp:182
+#, kde-format
+msgid "perldoc KIO worker"
+msgstr "Module d'entrées / sorties « perldoc »"
+
+#: perldoc.cpp:184
+#, kde-format
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr ""
+"Le module d'entrées / sortie fournit l'accès à la documentation « perldoc »."
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "Copyright 2007, 2008 Michael Pyne"
+
+#: perldoc.cpp:187
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr ""
+"Utilise « Pod::HtmlEasy » réalisé par M. P. Graciliano et Geoffrey Leach"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Michael Pyne"
+msgstr "Michael Pyne"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "Mainteneur, portage vers KDE 4"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Initial implementation"
+msgstr "Implémentation initiale"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "M. P. Graciliano"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "Pod::HtmlEasy"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "Geoffrey Leach"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "Mainteneur actuel de « Pod::HtmlEasy »"
+
+#: perldoc.cpp:195
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Joëlle Cornavin, Stanislas Zeller"
+
+#: perldoc.cpp:196
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jcornavi@club-internet.fr, uncensored.assault@gmail.com"
+
+#~ msgid "Failed to fork"
+#~ msgstr "Impossible de créer un processus fils (fork)"

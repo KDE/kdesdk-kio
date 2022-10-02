@@ -1,0 +1,133 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# obsoleteman <tulliana@gmail.com>, 2008-2009.
+# Emir SARI <emir_sari@icloud.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesdk-kde4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-14 00:48+0000\n"
+"PO-Revision-Date: 2022-07-13 09:51+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 22.04.2\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>Hiç sayfa istenmedi</title><body>Hiçbir sayfa istenmedi.  "
+"Perldoc kullanan fonksiyonları şu şekilde arayabilirsiniz:<ul><li>perldoc:/"
+"functions/foo</li>\n"
+"\n"
+"<li>sık sorulan sorular girdileri perldoc:/faq/search_terms</li><li>Diğer "
+"tüm perldoc belgelerini belgenin adı ile şu şekilde<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>%1 için belgelendirme yok</title><body><b>%2</b> için "
+"belgelendirme bulunamadı</body></html>\n"
+
+#: perldoc.cpp:139
+#, kde-format
+msgid "Error in perldoc"
+msgstr "Perldoc hatası"
+
+#: perldoc.cpp:182
+#, kde-format
+msgid "perldoc KIO worker"
+msgstr "perldoc KIO işçisi"
+
+#: perldoc.cpp:184
+#, kde-format
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr "perldoc belgelendirmesine erişim sağlamak için bir KIO işçisi"
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "Telif Hakları 2007 , 2008 Michael Pyne"
+
+#: perldoc.cpp:187
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr "Uses Pod::HtmlEasy  M. P. Graciliano ve Geoffrey Leach"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Michael Pyne"
+msgstr "Michael Pyne"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "Projeyi yürüten, KDE4 geçişi"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Initial implementation"
+msgstr "Başlangıç kodları"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "M. P. Graciliano"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "Pod::HtmlEasy"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "Geoffrey Leach"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "Pod::HtmlEasy projeyi yürüten"
+
+#: perldoc.cpp:195
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Serdar Soytetir"
+
+#: perldoc.cpp:196
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tulliana@gmail.com"
+
+#~ msgid "Failed to fork"
+#~ msgstr "Çatallanamadı"

@@ -1,0 +1,131 @@
+# translation of kio_perldoc.po to Swedish
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2008, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_perldoc\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-14 00:48+0000\n"
+"PO-Revision-Date: 2022-08-03 09:53+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 20.08.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>Ingen sida begärd</title><body>Ingen sida begärdes.  Du "
+"kan söka efter:<ul><li>funktioner med perldoc:/functions/namn</li>\n"
+"\n"
+"<li>Vanliga frågor med perldoc:/faq/sökbegrepp</li><li>Alla andra dokument i "
+"perldoc med dokumentets namn, som<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>eller <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>Ingen dokumentation av %1</title><body>Kan inte hitta "
+"dokumentation av <b>%2</b></body></html>\n"
+
+#: perldoc.cpp:139
+#, kde-format
+msgid "Error in perldoc"
+msgstr "Fel i perldoc"
+
+#: perldoc.cpp:182
+#, kde-format
+msgid "perldoc KIO worker"
+msgstr "perldoc I/O-arbetare"
+
+#: perldoc.cpp:184
+#, kde-format
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr "I/O-arbetare som ger tillgång till perldoc-dokumentation"
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "Copyright 2007, 2008 Michael Pyne"
+
+#: perldoc.cpp:187
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr "Använder Pod::HtmlEasy av M. P. Graciliano och Geoffrey Leach"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Michael Pyne"
+msgstr "Michael Pyne"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "Underhåll, överföring till KDE 4"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Initial implementation"
+msgstr "Ursprunglig implementering"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "M. P. Graciliano"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "Pod::HtmlEasy"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "Geoffrey Leach"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "Nuvarande underhåll av Pod::HtmlEasy"
+
+#: perldoc.cpp:195
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Asserhäll"
+
+#: perldoc.cpp:196
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "stefan.asserhall@bredband.net"
+
+#~ msgid "Failed to fork"
+#~ msgstr "Misslyckades skapa process med fork"

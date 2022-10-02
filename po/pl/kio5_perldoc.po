@@ -1,0 +1,133 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-14 00:48+0000\n"
+"PO-Revision-Date: 2022-07-28 20:41+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 22.03.70\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>Nie zażądano żadnej strony</title><body>Żadna strona nie "
+"została zażądana. Możesz wyszukać:<ul><li>funkcji używając perldoc:/"
+"functions/foo</li>\n"
+"\n"
+"<li>wpisów faq używając using perldoc:/faq/szukane_wyrażenie</"
+"li><li>Wszystkich innych dokumentów perldoc używając nazwy dokumentu, jak np."
+"<ul><li><a href='perldoc:/perlreftut'>perldoc:/perlreftut</a></li><li>or <a "
+"href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>Brak dokumentacji dla %1</title><body>Nie można znaleźć "
+"dokumentacji dla <b>%2</b></body></html>\n"
+
+#: perldoc.cpp:139
+#, kde-format
+msgid "Error in perldoc"
+msgstr "Błąd w perldoc"
+
+#: perldoc.cpp:182
+#, kde-format
+msgid "perldoc KIO worker"
+msgstr "pracownik perldoc KIO"
+
+#: perldoc.cpp:184
+#, kde-format
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr "Pracownik KIO do zapewnienia dostępu do dokumentacji perldoc"
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "Prawa autorskie 2007, 2008 Michael Pyne"
+
+#: perldoc.cpp:187
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr ""
+"Wykorzystuje Pod::HtmlEasy napisanego przez M. P. Graciliano i Geoffrey Leach"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Michael Pyne"
+msgstr "Michael Pyne"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "Opiekun, port do KDE 4"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Initial implementation"
+msgstr "Wstępna implementacja"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "M. P. Graciliano"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "Pod::HtmlEasy"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "Geoffrey Leach"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "Obecny opiekun Pod::HtmlEasy"
+
+#: perldoc.cpp:195
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Łukasz Wojniłowicz"
+
+#: perldoc.cpp:196
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukasz.wojnilowicz@gmail.com"
+
+#~ msgid "Failed to fork"
+#~ msgstr "Nieudane rozwidlenie"

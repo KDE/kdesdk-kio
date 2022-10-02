@@ -1,0 +1,138 @@
+# tradução do kio_perldoc.po para Brazilian Portuguese
+# translation of kio_perldoc.po to Brazilian Portuguese
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Diniz Bortolotto <diniz.bortolotto@gmail.com>, 2008.
+# Marcus Gama <marcus.gama@gmail.com>, 2008.
+# André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2010.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_perldoc\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-14 00:48+0000\n"
+"PO-Revision-Date: 2019-05-20 16:36-0300\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 19.04.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>Nenhuma página solicitada</title><body>Nenhuma página foi "
+"solicitada.  Você pode pesquisar por:<ul><li>funções usando perldoc:/"
+"functions/xpto</li>\n"
+"\n"
+"<li>entradas de faq usando perldoc:/faq/termos_da_pesquisa</li><li>Todos os "
+"outros documentos perldoc usando o nome do documento, como em<ul><li><a "
+"href='perldoc:/perlreftut'>perldoc:/perlreftut</a></li><li>ou <a "
+"href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>Nenhuma documentação para %1</title><body>Não foi "
+"possível encontrar documentação para <b>%2</b></body></html>\n"
+
+#: perldoc.cpp:139
+#, kde-format
+msgid "Error in perldoc"
+msgstr "Erro no perldoc"
+
+#: perldoc.cpp:182
+#, fuzzy, kde-format
+#| msgid "perldoc KIOSlave"
+msgid "perldoc KIO worker"
+msgstr "KIOSlave perldoc"
+
+#: perldoc.cpp:184
+#, fuzzy, kde-format
+#| msgid "KIOSlave to provide access to perldoc documentation"
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr "KIOSlave que fornece acesso à documentação do perldoc"
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "Copyright 2007, 2008 Michael Pyne"
+
+#: perldoc.cpp:187
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr "Usa o Pod::HtmlEasy de M. P. Graciliano e Geoffrey Leach"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Michael Pyne"
+msgstr "Michael Pyne"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "Mantenedor, passagem para o KDE 4"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Initial implementation"
+msgstr "Implementação inicial"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "M. P. Graciliano"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "Pod::HtmlEasy"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "Geoffrey Leach"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "Mantenedor atual do Pod::HtmlEasy"
+
+#: perldoc.cpp:195
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Diniz Bortolotto"
+
+#: perldoc.cpp:196
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "diniz.bortolotto@gmail.com"
+
+#~ msgid "Failed to fork"
+#~ msgstr "Não foi possível criar um subprocesso"

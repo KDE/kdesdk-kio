@@ -1,0 +1,132 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdesdk-kioslaves package.
+#
+# Sameer Singh <lumarzeli30@gmail.com>, 2021.
+# Raghavendra Kamath <raghu@raghukamath.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesdk-kioslaves\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-14 00:48+0000\n"
+"PO-Revision-Date: 2021-06-27 11:31+0530\n"
+"Last-Translator: Raghavendra Kamath <raghu@raghukamath.com>\n"
+"Language-Team: kde-hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Lokalize 21.04.2\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>कोई पृष्ठ का अनुरोध नहीं किया गया </title><body>कोई पृष्ठ का "
+"अनुरोध नहीं किया गया।आप ढूंढ़ सकते हैं:<ul><li>पर्लडॉक:/फ़ंक्शन्स/फ़ू का प्रयोग करने वाले "
+"फ़ंक्शन्स</li>\n"
+"\n"
+"<li>पर्लडॉक:/एफ़एक्यू/सर्च_टर्मस का उपयोग करके सामान्य प्रश्न</li><li>उनके नाम का प्रयोग "
+"करके और भी सभी पर्लडॉक प्रलेख, जैसे की<ul><li><a href='perldoc:/"
+"perlreftut'>पर्लडॉक:/पर्लरेफ़टट</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>पर्लडॉक:/नेट::एचटीटीपी</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>%1 के लिए कोई प्रलेखिकरण नहीं</title><body><b>%2</b> के लिए "
+"प्रलेखिकरण नहीं ढूंढ़ सके।</body></html>\n"
+
+#: perldoc.cpp:139
+#, kde-format
+msgid "Error in perldoc"
+msgstr "पर्लडॉक में त्रुटि"
+
+#: perldoc.cpp:182
+#, fuzzy, kde-format
+#| msgid "perldoc KIOSlave"
+msgid "perldoc KIO worker"
+msgstr "पर्लडॉक केआईओस्लेव"
+
+#: perldoc.cpp:184
+#, fuzzy, kde-format
+#| msgid "KIOSlave to provide access to perldoc documentation"
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr "केआईओस्लेव, पर्लडॉक प्रलेखिकरण तक पहुँच प्रदान करता है"
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "सर्वाधिकार संरक्षित २००७,२००८ माइकल पाइन"
+
+#: perldoc.cpp:187
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr ""
+"एम. पी. ग्रासीलिआनो एवं जॉफ़री लीच द्वारा प्रस्तुत पॉड::एचटीएमएलईज़ी का उपयोग करता है"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Michael Pyne"
+msgstr "माइकल पाइन"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "अनुरक्षक, केडीई ४ में पोर्ट"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "बर्न्ड गर्मान"
+
+#: perldoc.cpp:192
+#, kde-format
+msgid "Initial implementation"
+msgstr "प्रारंभिक कार्यान्वयन"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "एम. पी. ग्रासीलिआनो"
+
+#: perldoc.cpp:193
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "पॉड::एचटीएमएलइज़ी"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "जॉफ़री लीच"
+
+#: perldoc.cpp:194
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "पॉड::एचटीएमएलईज़ी का वर्तमान अनुरक्षक"
+
+#: perldoc.cpp:195
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "समीर सिंह, राघवेंद्र कामत"
+
+#: perldoc.cpp:196
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lumarzeli30@gmail.com, raghu@raghukamath.com"
