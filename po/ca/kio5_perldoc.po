@@ -133,6 +133,3 @@ msgstr "Manuel Tortosa Moreno"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "manutortosa@gmail.com"
-
-#~ msgid "Failed to fork"
-#~ msgstr "Ha fallat la bifurcació"
