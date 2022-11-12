@@ -20,6 +20,7 @@ include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 
 include(ECMSetupVersion)
+include(ECMDeprecationSettings)
 
 include(FeatureSummary)
 
@@ -36,11 +37,9 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED
 
 find_package(Perl 5.10)
 
-add_definitions(
-    -DQT_DISABLE_DEPRECATED_BEFORE=0x050f00
-    -DQT_DEPRECATED_WARNINGS_SINCE=0x060000
-    -DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055500
-    -DKF_DEPRECATED_WARNINGS_SINCE=0x060000
+ecm_set_disabled_deprecation_versions(
+    QT 5.15.2
+    KF 5.96
 )
 
 if(PERL_FOUND)
