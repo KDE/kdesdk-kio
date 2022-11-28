@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kdesdk-kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-14 00:48+0000\n"
-"PO-Revision-Date: 2022-08-16 05:59+0200\n"
+"PO-Revision-Date: 2022-11-27 06:50+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 
 #: perldoc.cpp:72
 #, kde-format
@@ -31,6 +31,15 @@ msgid ""
 "\n"
 "</body></html>\n"
 msgstr ""
+"<html><head><title>გვერდი მოთხოვნილი არაა</title><body>გვერდი მოთხოვნილი "
+"არაა. შეგიძლიათ მოძებნოთ:<ul><li>ფუნქციები perdock-ით:/functions/foo</li>\n"
+"\n"
+"<li>ხდკ-ის ჩანაწერები perldoc-ით:/faq/search_terms</li><li>და ყველა სხვა "
+"perldoc-ის დოკუმენტი, რომელიც იგივე სახელს იყენებს, როგორიცაა<ul><li><a "
+"href='perldoc:/perlreftut'>perldoc:/perlreftut</a></li><li>or <a "
+"href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
 
 #: perldoc.cpp:91
 #, kde-format
@@ -38,6 +47,8 @@ msgid ""
 "<html><head><title>No documentation for %1</title><body>Unable to find "
 "documentation for <b>%2</b></body></html>\n"
 msgstr ""
+"<html><head><title>%1-ის დოკუმენტაცია ვერ ვიპოვე</title><body><b>%2</b>-"
+"სთვის დოკუმენტაცია ვერ ვიპოვე</body></html>\n"
 
 #: perldoc.cpp:139
 #, kde-format
@@ -52,7 +63,7 @@ msgstr "perldoc KIO დამხმარე პროცესი"
 #: perldoc.cpp:184
 #, kde-format
 msgid "KIO worker to provide access to perldoc documentation"
-msgstr ""
+msgstr "Perldoc-ის დოკუმენტაციასთან წვდომისთვის საჭირო KIO-ის დამხმარე პროცესი"
 
 #: perldoc.cpp:186
 #, kde-format
