@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-14 00:48+0000\n"
-"PO-Revision-Date: 2022-12-01 06:57\n"
+"PO-Revision-Date: 2022-12-13 12:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-stable/messages/kdesdk-kio/kio5_perldoc.pot\n"
-"X-Crowdin-File-ID: 40752\n"
+"X-Crowdin-File-ID: 4582\n"
 
 #: perldoc.cpp:72
 #, kde-format
