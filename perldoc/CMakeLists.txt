@@ -15,8 +15,8 @@ target_sources(kio_perldoc PRIVATE
 )
 
 target_link_libraries(kio_perldoc
-    KF5::I18n
-    KF5::KIOCore
+    KF${QT_MAJOR_VERSION}::I18n
+    KF${QT_MAJOR_VERSION}::KIOCore
 )
 
 install(TARGETS kio_perldoc DESTINATION ${KDE_INSTALL_PLUGINDIR}/kf5/kio)
