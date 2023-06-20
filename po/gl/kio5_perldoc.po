@@ -74,7 +74,7 @@ msgstr "Copyright 2007, 2008 Michael Pyne"
 #: perldoc.cpp:187
 #, kde-format
 msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
-msgstr "Emprega Pod::HtmlEasy de M. P. Graciliano e Geoffrey Leach"
+msgstr "Usa Pod::HtmlEasy de M. P. Graciliano e Geoffrey Leach"
 
 #: perldoc.cpp:190
 #, kde-format
