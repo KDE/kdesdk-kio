@@ -54,7 +54,7 @@ msgstr ""
 #: perldoc.cpp:139
 #, kde-format
 msgid "Error in perldoc"
-msgstr "Ocorreu un erro en perldoc"
+msgstr "Produciuse un erro en perldoc"
 
 #: perldoc.cpp:182
 #, kde-format
