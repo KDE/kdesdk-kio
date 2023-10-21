@@ -3,7 +3,6 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Manuel Tortosa <manutortosa@gmail.com>, 2009.
 # Manuel Tortosa Moreno <manutortosa@gmail.com>, 2009.
 # Josep M. Ferrer <txemaq@gmail.com>, 2019, 2022.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2020, 2022.
