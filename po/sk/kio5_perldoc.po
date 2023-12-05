@@ -1,18 +1,19 @@
 # translation of kio_perldoc.po to Slovak
 # Richard Fric <Richard.Fric@kdemail.net>, 2009.
+# SPDX-FileCopyrightText: 2023 Roman Paholik <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_perldoc\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-14 00:48+0000\n"
-"PO-Revision-Date: 2012-04-17 14:21+0100\n"
-"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"PO-Revision-Date: 2023-12-04 17:27+0100\n"
+"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 23.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: perldoc.cpp:72
@@ -54,16 +55,14 @@ msgid "Error in perldoc"
 msgstr "Chyba v perldoc"
 
 #: perldoc.cpp:182
-#, fuzzy, kde-format
-#| msgid "perldoc KIOSlave"
+#, kde-format
 msgid "perldoc KIO worker"
-msgstr "perldoc KIOSlave"
+msgstr "perldoc KIO worker"
 
 #: perldoc.cpp:184
-#, fuzzy, kde-format
-#| msgid "KIOSlave to provide access to perldoc documentation"
+#, kde-format
 msgid "KIO worker to provide access to perldoc documentation"
-msgstr "KIOSlave na poskytnutie prístupu k dokumentácii perldoc"
+msgstr "KIO worker na poskytnutie prístupu k dokumentácii perldoc"
 
 #: perldoc.cpp:186
 #, kde-format
