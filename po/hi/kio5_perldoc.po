@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesdk-kioslaves\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:37+0000\n"
+"POT-Creation-Date: 2024-04-10 01:46+0000\n"
 "PO-Revision-Date: 2021-06-27 11:31+0530\n"
 "Last-Translator: Raghavendra Kamath <raghu@raghukamath.com>\n"
 "Language-Team: kde-hindi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 21.04.2\n"
 
-#: perldoc.cpp:72
+#: perldoc.cpp:71
 #, kde-format
 msgid ""
 "<html><head><title>No page requested</title><body>No page was requested.  "
@@ -42,7 +42,7 @@ msgstr ""
 "\n"
 "</body></html>\n"
 
-#: perldoc.cpp:91
+#: perldoc.cpp:90
 #, kde-format
 msgid ""
 "<html><head><title>No documentation for %1</title><body>Unable to find "
@@ -51,81 +51,81 @@ msgstr ""
 "<html><head><title>%1 के लिए कोई प्रलेखिकरण नहीं</title><body><b>%2</b> के लिए "
 "प्रलेखिकरण नहीं ढूंढ़ सके।</body></html>\n"
 
-#: perldoc.cpp:139
+#: perldoc.cpp:137
 #, kde-format
 msgid "Error in perldoc"
 msgstr "पर्लडॉक में त्रुटि"
 
-#: perldoc.cpp:182
+#: perldoc.cpp:180
 #, fuzzy, kde-format
 #| msgid "perldoc KIOSlave"
 msgid "perldoc KIO worker"
 msgstr "पर्लडॉक केआईओस्लेव"
 
-#: perldoc.cpp:184
+#: perldoc.cpp:182
 #, fuzzy, kde-format
 #| msgid "KIOSlave to provide access to perldoc documentation"
 msgid "KIO worker to provide access to perldoc documentation"
 msgstr "केआईओस्लेव, पर्लडॉक प्रलेखिकरण तक पहुँच प्रदान करता है"
 
-#: perldoc.cpp:186
+#: perldoc.cpp:184
 #, kde-format
 msgid "Copyright 2007, 2008 Michael Pyne"
 msgstr "सर्वाधिकार संरक्षित २००७,२००८ माइकल पाइन"
 
-#: perldoc.cpp:187
+#: perldoc.cpp:185
 #, kde-format
 msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
 msgstr ""
 "एम. पी. ग्रासीलिआनो एवं जॉफ़री लीच द्वारा प्रस्तुत पॉड::एचटीएमएलईज़ी का उपयोग करता है"
 
-#: perldoc.cpp:190
+#: perldoc.cpp:188
 #, kde-format
 msgid "Michael Pyne"
 msgstr "माइकल पाइन"
 
-#: perldoc.cpp:190
+#: perldoc.cpp:188
 #, kde-format
 msgid "Maintainer, port to KDE 4"
 msgstr "अनुरक्षक, केडीई ४ में पोर्ट"
 
-#: perldoc.cpp:192
+#: perldoc.cpp:190
 #, kde-format
 msgid "Bernd Gehrmann"
 msgstr "बर्न्ड गर्मान"
 
-#: perldoc.cpp:192
+#: perldoc.cpp:190
 #, kde-format
 msgid "Initial implementation"
 msgstr "प्रारंभिक कार्यान्वयन"
 
-#: perldoc.cpp:193
+#: perldoc.cpp:191
 #, kde-format
 msgid "M. P. Graciliano"
 msgstr "एम. पी. ग्रासीलिआनो"
 
-#: perldoc.cpp:193
+#: perldoc.cpp:191
 #, kde-format
 msgid "Pod::HtmlEasy"
 msgstr "पॉड::एचटीएमएलइज़ी"
 
-#: perldoc.cpp:194
+#: perldoc.cpp:192
 #, kde-format
 msgid "Geoffrey Leach"
 msgstr "जॉफ़री लीच"
 
-#: perldoc.cpp:194
+#: perldoc.cpp:192
 #, kde-format
 msgid "Pod::HtmlEasy current maintainer"
 msgstr "पॉड::एचटीएमएलईज़ी का वर्तमान अनुरक्षक"
 
-#: perldoc.cpp:195
+#: perldoc.cpp:193
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "समीर सिंह, राघवेंद्र कामत"
 
-#: perldoc.cpp:196
+#: perldoc.cpp:194
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
