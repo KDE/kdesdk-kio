@@ -1,4 +1,4 @@
-add_definitions(-DTRANSLATION_DOMAIN=\"kio5_perldoc\")
+add_definitions(-DTRANSLATION_DOMAIN=\"kio6_perldoc\")
 
 add_library(kio_perldoc MODULE)
 set_target_properties(kio_perldoc PROPERTIES
