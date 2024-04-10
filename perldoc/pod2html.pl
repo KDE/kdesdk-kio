@@ -1211,7 +1211,7 @@ sub pod2html {
     delete $this->{UPARROW_FILE};
     push @html, q{<div id="content">};
     push @html, qq{<div id="header"><div id="header_content"><div id="header_left"><div id="header_right">$NL};
-    push @html, qq{<img src="help:/kdoctools5-common/top-kde.jpg" alt="KDE"> $title - KDE Perldoc Viewer</div></div></div></div>};
+    push @html, qq{<img src="help:/kdoctools6-common/top-kde.jpg" alt="KDE"> $title - KDE Perldoc Viewer</div></div></div></div>};
     push @html, q{<div id="contentBody">};
 
     if ( exists $args{top} ) {
@@ -1394,9 +1394,9 @@ sub _organize_body {
 
 sub _organize_css {
     return <<"EOL";
-<link rel="stylesheet" href="help:/kdoctools5-common/kde-default.css" type="text/css">
-<link rel="stylesheet" href="help:/kdoctools5-common/kde-docs.css" type="text/css">
-<link rel="stylesheet" href="help:/kdoctools5-common/kde-localised.css" type="text/css">
+<link rel="stylesheet" href="help:/kdoctools6-common/kde-default.css" type="text/css">
+<link rel="stylesheet" href="help:/kdoctools6-common/kde-docs.css" type="text/css">
+<link rel="stylesheet" href="help:/kdoctools6-common/kde-localised.css" type="text/css">
 EOL
 }
 

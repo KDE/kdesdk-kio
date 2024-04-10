@@ -8,8 +8,8 @@ set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE
 
 project(kio-kdesdk VERSION ${RELEASE_SERVICE_VERSION})
 
-set(QT_MIN_VERSION 5.15.2)
-set(KF_MIN_VERSION 5.96.0)
+set(QT_MIN_VERSION 6.5.0)
+set(KF_MIN_VERSION 6.0.0)
 
 find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 
@@ -24,13 +24,11 @@ include(ECMDeprecationSettings)
 
 include(FeatureSummary)
 
-find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED NO_MODULE
-    COMPONENTS
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS
     Core
 )
 
-find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED
-    COMPONENTS
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     I18n
     KIO
 )
@@ -38,8 +36,8 @@ find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED
 find_package(Perl 5.10)
 
 ecm_set_disabled_deprecation_versions(
-    QT 5.15.2
-    KF 5.96
+    QT 6.5
+    KF 6.0
 )
 
 if(PERL_FOUND)
