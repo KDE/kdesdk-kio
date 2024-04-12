@@ -1,21 +1,21 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdesdk-kio package.
+#
+# giovanni <g.sora@tiscali.it>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: kdesdk-kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-10 01:46+0000\n"
-"PO-Revision-Date: 2024-04-11 19:21\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2024-04-11 11:36+0200\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/kdesdk-kio/kio6_perldoc.pot\n"
-"X-Crowdin-File-ID: 53246\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: perldoc.cpp:71
 #, kde-format
@@ -30,13 +30,14 @@ msgid ""
 "\n"
 "</body></html>\n"
 msgstr ""
-"<html><head><title>无请求的页面</title><body>无请求的页面。 搜索方式："
-"<ul><li>搜索函数使用 perldoc:/functions/foo</li>\n"
+"<html><head><title>Nulle pagina requirite</title><body>Nulel pagina esseva "
+"requirite.  Tu pote cercar:<ul><li>functiones per usar perldoc:/functions/"
+"foo</li>\n"
 "\n"
-"<li>搜索 FAQ 条目使用 perldoc:/faq/search_terms</li><li>搜索其他所有 perldoc "
-"文档请使用文档名称，例如<ul><li><a href='perldoc:/perlreftut'>perldoc:/"
-"perlreftut</a></li><li>或者 <a href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</"
-"a></li></ul></li></ul>\n"
+"<li>entratas de faq per usar perldoc:/faq/search_terms</li><li>Omne altere "
+"documentos  de perldoc per usar le nomine deldocumento, como<ul><li><a "
+"href='perldoc:/perlreftut'>perldoc:/perlreftut</a></li><li>or <a "
+"href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
 "\n"
 "</body></html>\n"
 
@@ -46,23 +47,23 @@ msgid ""
 "<html><head><title>No documentation for %1</title><body>Unable to find "
 "documentation for <b>%2</b></body></html>\n"
 msgstr ""
-"<html><head><title>找不到 %1 的文档</title><body>无法找到 <b>%2</b> 的文档</"
-"body></html>\n"
+"<html><head><title>Nulle documentation per %1</title><body>Incapace a trovar "
+"documentation per <b>%2</b></body></html>\n"
 
 #: perldoc.cpp:137
 #, kde-format
 msgid "Error in perldoc"
-msgstr "perldoc 出错"
+msgstr "Error in perldoc"
 
 #: perldoc.cpp:180
 #, kde-format
 msgid "perldoc KIO worker"
-msgstr "perldoc KIO 工作程序"
+msgstr "perldoc Kio Worker (Laborator de Kio perldoc)"
 
 #: perldoc.cpp:182
 #, kde-format
 msgid "KIO worker to provide access to perldoc documentation"
-msgstr "提供 perldoc 文档访问功能的 KIO 工作程序"
+msgstr "Laborator de KIO a provider accesso a documentation perldoc"
 
 #: perldoc.cpp:184
 #, kde-format
@@ -72,7 +73,7 @@ msgstr "Copyright 2007, 2008 Michael Pyne"
 #: perldoc.cpp:185
 #, kde-format
 msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
-msgstr "使用由 M. P. Graciliano 和 Geoffrey Leach 编写的 Pod::HtmlEasy"
+msgstr "Usa Pod::HtmlEasy per M. P. Graciliano e Geoffrey Leach"
 
 #: perldoc.cpp:188
 #, kde-format
@@ -82,7 +83,7 @@ msgstr "Michael Pyne"
 #: perldoc.cpp:188
 #, kde-format
 msgid "Maintainer, port to KDE 4"
-msgstr "项目负责人，负责 KDE 4 移植工作"
+msgstr "Mantenitor, porto a KDE 4"
 
 #: perldoc.cpp:190
 #, kde-format
@@ -92,7 +93,7 @@ msgstr "Bernd Gehrmann"
 #: perldoc.cpp:190
 #, kde-format
 msgid "Initial implementation"
-msgstr "项目发起人"
+msgstr "Implementation initial"
 
 #: perldoc.cpp:191
 #, kde-format
@@ -112,16 +113,16 @@ msgstr "Geoffrey Leach"
 #: perldoc.cpp:192
 #, kde-format
 msgid "Pod::HtmlEasy current maintainer"
-msgstr "Pod::HtmlEasy 当前项目负责人"
+msgstr "Pod::HtmlEasy current maintainer"
 
 #: perldoc.cpp:193
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国, Ni Hui, Guo Yunhe, Tyson Tan"
+msgstr "Giovanni Sora"
 
 #: perldoc.cpp:194
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org, shuizhuyuanluo@126.com, i@guoyunhe.me, tds00@qq.com"
+msgstr "g.sora@tiscali.it"
