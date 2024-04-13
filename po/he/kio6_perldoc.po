@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: kdesdk-kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-10 01:46+0000\n"
-"PO-Revision-Date: 2024-04-11 06:50+0300\n"
+"PO-Revision-Date: 2024-04-12 07:03+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Lokalize 23.08.5\n"
 
 #: perldoc.cpp:71
@@ -30,6 +31,15 @@ msgid ""
 "\n"
 "</body></html>\n"
 msgstr ""
+"<html><head><title>לא התבקש אף עמוד</title><body>לא התבקש אף עמוד.  אפשר "
+"לחפש אחר:<ul><li>פונקציות בעזרת perldoc:/functions/foo</li>\n"
+"\n"
+"<li>רשומות שו״ת בעזרת perldoc:/faq/search_terms</li><li>כל שאר התיעוד של "
+"perldoc באמצעות שם המסמך, כגון<ul><li><a href='perldoc:/perlreftut'>perldoc:/"
+"perlreftut</a></li><li>או <a href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</"
+"a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
 
 #: perldoc.cpp:90
 #, kde-format
@@ -37,6 +47,8 @@ msgid ""
 "<html><head><title>No documentation for %1</title><body>Unable to find "
 "documentation for <b>%2</b></body></html>\n"
 msgstr ""
+"<html><head><title>אין תיעוד עבור %1</title><body>לא ניתן למצוא את התיעוד "
+"עבור <b>%2</b></body></html>\n"
 
 #: perldoc.cpp:137
 #, kde-format
@@ -61,7 +73,7 @@ msgstr "כל הזכויות שמורות 2007, 2008 מייקל פיין"
 #: perldoc.cpp:185
 #, kde-format
 msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
-msgstr ""
+msgstr "משתמש ב־Pod::HtmlEasy מאת מ. פ. גרסיליאנו"
 
 #: perldoc.cpp:188
 #, kde-format
@@ -86,7 +98,7 @@ msgstr "מימוש ראשוני"
 #: perldoc.cpp:191
 #, kde-format
 msgid "M. P. Graciliano"
-msgstr "מ. פ. גרסיאנו"
+msgstr "מ. פ. גרסיליאנו"
 
 #: perldoc.cpp:191
 #, kde-format
@@ -96,7 +108,7 @@ msgstr "Pod::HtmlEasy"
 #: perldoc.cpp:192
 #, kde-format
 msgid "Geoffrey Leach"
-msgstr ""
+msgstr "ג׳פרי ליץ׳"
 
 #: perldoc.cpp:192
 #, kde-format

@@ -1,4 +1,4 @@
-# Translation of kio5_perldoc to Norwegian Nynorsk
+# Translation of kio6_perldoc to Norwegian Nynorsk
 #
 # Karl Ove Hufthammer <karl@huftis.org>, 2009, 2022.
 msgid ""
