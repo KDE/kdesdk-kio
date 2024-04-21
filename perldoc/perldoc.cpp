@@ -55,7 +55,7 @@ KIO::WorkerResult PerldocProtocol::get(const QUrl &url)
     const QStringList l = url.path().split(QLatin1Char('/'), Qt::SkipEmptyParts);
 
     // Check for perldoc://foo
-    if(!url.host().isEmpty()) {
+    if (!url.host().isEmpty()) {
         QUrl newURL(url);
 
         newURL.setPath(url.host() + url.path());
@@ -67,29 +67,32 @@ KIO::WorkerResult PerldocProtocol::get(const QUrl &url)
 
     mimeType(QStringLiteral("text/html"));
 
-    if(l[0].isEmpty() || url.path() == QLatin1String("/")) {
-        QByteArray output = i18n("<html><head><title>No page requested</title>"
-            "<body>No page was requested.  You can search for:<ul><li>functions "
-            "using perldoc:/functions/foo</li>\n\n"
-            "<li>faq entries using perldoc:/faq/search_terms</li>"
-            "<li>All other perldoc documents using the name of the document, like"
-            "<ul><li><a href='perldoc:/perlreftut'>perldoc:/perlreftut</a></li>"
-            "<li>or <a href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</a></li></ul>"
-            "</li></ul>\n\n</body></html>\n"
-        ).toLocal8Bit();
+    if (l[0].isEmpty() || url.path() == QLatin1String("/")) {
+        QByteArray output = i18n(
+                                "<html><head><title>No page requested</title>"
+                                "<body>No page was requested.  You can search for:<ul><li>functions "
+                                "using perldoc:/functions/foo</li>\n\n"
+                                "<li>faq entries using perldoc:/faq/search_terms</li>"
+                                "<li>All other perldoc documents using the name of the document, like"
+                                "<ul><li><a href='perldoc:/perlreftut'>perldoc:/perlreftut</a></li>"
+                                "<li>or <a href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</a></li></ul>"
+                                "</li></ul>\n\n</body></html>\n")
+                                .toLocal8Bit();
 
         data(output);
         return KIO::WorkerResult::pass();
     }
 
-    if(l[0] != QLatin1String("functions") && l[0] != QLatin1String("faq")) {
+    if (l[0] != QLatin1String("functions") && l[0] != QLatin1String("faq")) {
         // See if it exists first.
-        if(!topicExists(l[0])) {
+        if (!topicExists(l[0])) {
             // Failed
-            QByteArray errstr =
-                i18n("<html><head><title>No documentation for %1</title><body>"
-                "Unable to find documentation for <b>%2</b></body></html>\n",
-                l[0], l[0]).toLocal8Bit();
+            QByteArray errstr = i18n(
+                                    "<html><head><title>No documentation for %1</title><body>"
+                                    "Unable to find documentation for <b>%2</b></body></html>\n",
+                                    l[0],
+                                    l[0])
+                                    .toLocal8Bit();
 
             data(errstr);
             return KIO::WorkerResult::pass();
@@ -116,8 +119,7 @@ KIO::WorkerResult PerldocProtocol::get(const QUrl &url)
         return failAndQuit();
     }
 
-    if ((pod2htmlProcess.exitStatus() != QProcess::NormalExit) ||
-        (pod2htmlProcess.exitCode() < 0)) {
+    if ((pod2htmlProcess.exitStatus() != QProcess::NormalExit) || (pod2htmlProcess.exitCode() < 0)) {
         return KIO::WorkerResult::fail(KIO::ERR_CANNOT_LAUNCH_PROCESS, m_pod2htmlPath);
     }
 
@@ -133,12 +135,10 @@ KIO::WorkerResult PerldocProtocol::failAndQuit()
 
 QByteArray PerldocProtocol::errorMessage()
 {
-    return QByteArray("<html><body bgcolor=\"#FFFFFF\">" +
-           i18n("Error in perldoc").toLocal8Bit() +
-           "</body></html>");
+    return QByteArray("<html><body bgcolor=\"#FFFFFF\">" + i18n("Error in perldoc").toLocal8Bit() + "</body></html>");
 }
 
-KIO::WorkerResult PerldocProtocol::stat(const QUrl &/*url*/)
+KIO::WorkerResult PerldocProtocol::stat(const QUrl & /*url*/)
 {
     KIO::UDSEntry uds_entry;
     uds_entry.fastInsert(KIO::UDSEntry::UDS_FILE_TYPE, S_IFREG | S_IRWXU | S_IRWXG | S_IRWXO);
@@ -149,7 +149,7 @@ KIO::WorkerResult PerldocProtocol::stat(const QUrl &/*url*/)
 
 KIO::WorkerResult PerldocProtocol::listDir(const QUrl &url)
 {
-    return KIO::WorkerResult::fail( KIO::ERR_CANNOT_ENTER_DIRECTORY, url.path() );
+    return KIO::WorkerResult::fail(KIO::ERR_CANNOT_ENTER_DIRECTORY, url.path());
 }
 
 bool PerldocProtocol::topicExists(const QString &topic)
@@ -161,8 +161,7 @@ bool PerldocProtocol::topicExists(const QString &topic)
         return false;
     }
 
-    if ((perldocProcess.exitStatus() != QProcess::NormalExit) ||
-        (perldocProcess.exitCode() < 0)) {
+    if ((perldocProcess.exitStatus() != QProcess::NormalExit) || (perldocProcess.exitCode() < 0)) {
         return false;
     }
 
@@ -171,43 +170,42 @@ bool PerldocProtocol::topicExists(const QString &topic)
 
 extern "C" {
 
-    int Q_DECL_EXPORT kdemain(int argc, char **argv)
-    {
-        QCoreApplication app(argc, argv);
+int Q_DECL_EXPORT kdemain(int argc, char **argv)
+{
+    QCoreApplication app(argc, argv);
 
-        KAboutData aboutData(
-            QStringLiteral("kio_perldoc"),
-            i18n("perldoc KIO worker"),
-            QStringLiteral(KIO_PERLDOC_VERSION_STRING),
-            i18n("KIO worker to provide access to perldoc documentation"),
-            KAboutLicense::GPL_V2,
-            i18n("Copyright 2007, 2008 Michael Pyne"),
-            i18n("Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach")
-        );
+    KAboutData aboutData(QStringLiteral("kio_perldoc"),
+                         i18n("perldoc KIO worker"),
+                         QStringLiteral(KIO_PERLDOC_VERSION_STRING),
+                         i18n("KIO worker to provide access to perldoc documentation"),
+                         KAboutLicense::GPL_V2,
+                         i18n("Copyright 2007, 2008 Michael Pyne"),
+                         i18n("Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"));
 
-        aboutData.addAuthor(i18n("Michael Pyne"), i18n("Maintainer, port to KDE 4"),
-            QStringLiteral("michael.pyne@kdemail.net"), QStringLiteral("http://purinchu.net/wp/"));
-        aboutData.addAuthor(i18n("Bernd Gehrmann"), i18n("Initial implementation"));
-        aboutData.addCredit(i18n("M. P. Graciliano"), i18n("Pod::HtmlEasy"));
-        aboutData.addCredit(i18n("Geoffrey Leach"), i18n("Pod::HtmlEasy current maintainer"));
-        aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"),
-            i18nc("EMAIL OF TRANSLATORS", "Your emails"));
+    aboutData.addAuthor(i18n("Michael Pyne"),
+                        i18n("Maintainer, port to KDE 4"),
+                        QStringLiteral("michael.pyne@kdemail.net"),
+                        QStringLiteral("http://purinchu.net/wp/"));
+    aboutData.addAuthor(i18n("Bernd Gehrmann"), i18n("Initial implementation"));
+    aboutData.addCredit(i18n("M. P. Graciliano"), i18n("Pod::HtmlEasy"));
+    aboutData.addCredit(i18n("Geoffrey Leach"), i18n("Pod::HtmlEasy current maintainer"));
+    aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
 
-        app.setOrganizationDomain(QStringLiteral("kde.org"));
-        app.setOrganizationName(QStringLiteral("KDE"));
+    app.setOrganizationDomain(QStringLiteral("kde.org"));
+    app.setOrganizationName(QStringLiteral("KDE"));
 
-        KAboutData::setApplicationData(aboutData);
+    KAboutData::setApplicationData(aboutData);
 
-        if (argc != 4) {
-            fprintf(stderr, "Usage: kio_perldoc protocol domain-socket1 domain-socket2\n");
-            exit(5);
-        }
-
-        PerldocProtocol worker(argv[2], argv[3]);
-        worker.dispatchLoop();
-
-        return 0;
+    if (argc != 4) {
+        fprintf(stderr, "Usage: kio_perldoc protocol domain-socket1 domain-socket2\n");
+        exit(5);
     }
+
+    PerldocProtocol worker(argv[2], argv[3]);
+    worker.dispatchLoop();
+
+    return 0;
+}
 }
 
 #include "perldoc.moc"
