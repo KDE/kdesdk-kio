@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesdk-kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-10 01:46+0000\n"
+"POT-Creation-Date: 2024-04-22 00:40+0000\n"
 "PO-Revision-Date: 2022-07-26 17:32+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 22.04.3\n"
 
-#: perldoc.cpp:71
+#: perldoc.cpp:72
 #, kde-format
 msgid ""
 "<html><head><title>No page requested</title><body>No page was requested.  "
@@ -44,7 +44,7 @@ msgstr ""
 "\n"
 "</body></html>\n"
 
-#: perldoc.cpp:90
+#: perldoc.cpp:91
 #, kde-format
 msgid ""
 "<html><head><title>No documentation for %1</title><body>Unable to find "
@@ -53,78 +53,78 @@ msgstr ""
 "<html><head><title>Ez dago %1(r)(e)n dokumentaziorik</title><body><b>%2</"
 "b>(r)(e)n dokumentazioa ezin du aurkitu</body></html>\n"
 
-#: perldoc.cpp:137
+#: perldoc.cpp:138
 #, kde-format
 msgid "Error in perldoc"
 msgstr "Perldoc-en errorea"
 
-#: perldoc.cpp:180
+#: perldoc.cpp:178
 #, kde-format
 msgid "perldoc KIO worker"
 msgstr "perldoc KIO behargina"
 
-#: perldoc.cpp:182
+#: perldoc.cpp:180
 #, kde-format
 msgid "KIO worker to provide access to perldoc documentation"
 msgstr "Perldoc dokumentaziora sarbidea emateko KIO behargina"
 
-#: perldoc.cpp:184
+#: perldoc.cpp:182
 #, kde-format
 msgid "Copyright 2007, 2008 Michael Pyne"
 msgstr "Copyright 2007, 2008 Michael Pyne"
 
-#: perldoc.cpp:185
+#: perldoc.cpp:183
 #, kde-format
 msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
 msgstr "M. P. Graciliano eta Geoffrey Leach-en Pod::HtmlEasy erabiltzen du"
 
-#: perldoc.cpp:188
+#: perldoc.cpp:185
 #, kde-format
 msgid "Michael Pyne"
 msgstr "Michael Pyne"
 
-#: perldoc.cpp:188
+#: perldoc.cpp:186
 #, kde-format
 msgid "Maintainer, port to KDE 4"
 msgstr "Mantentzailea, KDE 4-ra moldatzea"
 
-#: perldoc.cpp:190
+#: perldoc.cpp:189
 #, kde-format
 msgid "Bernd Gehrmann"
 msgstr "Bernd Gehrmann"
 
-#: perldoc.cpp:190
+#: perldoc.cpp:189
 #, kde-format
 msgid "Initial implementation"
 msgstr "Hasierako inplementazioa"
 
-#: perldoc.cpp:191
+#: perldoc.cpp:190
 #, kde-format
 msgid "M. P. Graciliano"
 msgstr "M. P. Graciliano"
 
-#: perldoc.cpp:191
+#: perldoc.cpp:190
 #, kde-format
 msgid "Pod::HtmlEasy"
 msgstr "Pod::HtmlEasy"
 
-#: perldoc.cpp:192
+#: perldoc.cpp:191
 #, kde-format
 msgid "Geoffrey Leach"
 msgstr "Geoffrey Leach"
 
-#: perldoc.cpp:192
+#: perldoc.cpp:191
 #, kde-format
 msgid "Pod::HtmlEasy current maintainer"
 msgstr "Pod::HtmlEasy egungo mantentzailea"
 
-#: perldoc.cpp:193
+#: perldoc.cpp:192
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Iñigo Salvador Azurmendi"
 
-#: perldoc.cpp:194
+#: perldoc.cpp:192
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

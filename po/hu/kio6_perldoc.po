@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-10 01:46+0000\n"
+"POT-Creation-Date: 2024-04-22 00:40+0000\n"
 "PO-Revision-Date: 2009-04-12 11:11+0100\n"
 "Last-Translator: Tamas Szanto <tszanto@interware.hu>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: perldoc.cpp:71
+#: perldoc.cpp:72
 #, kde-format
 msgid ""
 "<html><head><title>No page requested</title><body>No page was requested.  "
@@ -40,7 +40,7 @@ msgstr ""
 "\n"
 "</body></html>\n"
 
-#: perldoc.cpp:90
+#: perldoc.cpp:91
 #, kde-format
 msgid ""
 "<html><head><title>No documentation for %1</title><body>Unable to find "
@@ -49,81 +49,81 @@ msgstr ""
 "<html><head><title>Nincs dokumentáció: %1</title><body>Nem található "
 "dokumentáció ehhez: <b>%2</b></body></html>\n"
 
-#: perldoc.cpp:137
+#: perldoc.cpp:138
 #, kde-format
 msgid "Error in perldoc"
 msgstr "Hiba a perldoc-ban"
 
-#: perldoc.cpp:180
+#: perldoc.cpp:178
 #, fuzzy, kde-format
 #| msgid "perldoc KIOSlave"
 msgid "perldoc KIO worker"
 msgstr "Perldoc KDE-protokoll"
 
-#: perldoc.cpp:182
+#: perldoc.cpp:180
 #, fuzzy, kde-format
 #| msgid "KIOSlave to provide access to perldoc documentation"
 msgid "KIO worker to provide access to perldoc documentation"
 msgstr "KDE-protokoll a Perldoc-dokumentáció kezeléséhez"
 
-#: perldoc.cpp:184
+#: perldoc.cpp:182
 #, kde-format
 msgid "Copyright 2007, 2008 Michael Pyne"
 msgstr "(c) Michael Pyne, 2007, 2008."
 
-#: perldoc.cpp:185
+#: perldoc.cpp:183
 #, kde-format
 msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
 msgstr ""
 "A Pod::HtmlEasy-re épül, amely M. P. Graciliano és Geoffrey Leach munkája"
 
-#: perldoc.cpp:188
+#: perldoc.cpp:185
 #, kde-format
 msgid "Michael Pyne"
 msgstr "Michael Pyne"
 
-#: perldoc.cpp:188
+#: perldoc.cpp:186
 #, kde-format
 msgid "Maintainer, port to KDE 4"
 msgstr "Karbantartó, KDE 4-es átirat"
 
-#: perldoc.cpp:190
+#: perldoc.cpp:189
 #, kde-format
 msgid "Bernd Gehrmann"
 msgstr "Bernd Gehrmann"
 
-#: perldoc.cpp:190
+#: perldoc.cpp:189
 #, kde-format
 msgid "Initial implementation"
 msgstr "Első változat"
 
-#: perldoc.cpp:191
+#: perldoc.cpp:190
 #, kde-format
 msgid "M. P. Graciliano"
 msgstr "M. P. Graciliano"
 
-#: perldoc.cpp:191
+#: perldoc.cpp:190
 #, kde-format
 msgid "Pod::HtmlEasy"
 msgstr "Pod::HtmlEasy"
 
-#: perldoc.cpp:192
+#: perldoc.cpp:191
 #, kde-format
 msgid "Geoffrey Leach"
 msgstr "Geoffrey Leach"
 
-#: perldoc.cpp:192
+#: perldoc.cpp:191
 #, kde-format
 msgid "Pod::HtmlEasy current maintainer"
 msgstr "A Pod::HtmlEasy jelenlegi karbantartója"
 
-#: perldoc.cpp:193
+#: perldoc.cpp:192
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Szántó Tamás"
 
-#: perldoc.cpp:194
+#: perldoc.cpp:192
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

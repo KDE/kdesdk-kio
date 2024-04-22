@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesdk-kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-10 01:46+0000\n"
+"POT-Creation-Date: 2024-04-22 00:40+0000\n"
 "PO-Revision-Date: 2024-04-12 07:03+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -18,7 +18,7 @@ msgstr ""
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Lokalize 23.08.5\n"
 
-#: perldoc.cpp:71
+#: perldoc.cpp:72
 #, kde-format
 msgid ""
 "<html><head><title>No page requested</title><body>No page was requested.  "
@@ -41,7 +41,7 @@ msgstr ""
 "\n"
 "</body></html>\n"
 
-#: perldoc.cpp:90
+#: perldoc.cpp:91
 #, kde-format
 msgid ""
 "<html><head><title>No documentation for %1</title><body>Unable to find "
@@ -50,78 +50,78 @@ msgstr ""
 "<html><head><title>אין תיעוד עבור %1</title><body>לא ניתן למצוא את התיעוד "
 "עבור <b>%2</b></body></html>\n"
 
-#: perldoc.cpp:137
+#: perldoc.cpp:138
 #, kde-format
 msgid "Error in perldoc"
 msgstr "שגיאה ב־perldoc"
 
-#: perldoc.cpp:180
+#: perldoc.cpp:178
 #, kde-format
 msgid "perldoc KIO worker"
 msgstr "סוכן פעולה KIO של perldoc"
 
-#: perldoc.cpp:182
+#: perldoc.cpp:180
 #, kde-format
 msgid "KIO worker to provide access to perldoc documentation"
 msgstr "סוכן פעולה לאספקת גישה לתיעוד של perldoc"
 
-#: perldoc.cpp:184
+#: perldoc.cpp:182
 #, kde-format
 msgid "Copyright 2007, 2008 Michael Pyne"
 msgstr "כל הזכויות שמורות 2007, 2008 מייקל פיין"
 
-#: perldoc.cpp:185
+#: perldoc.cpp:183
 #, kde-format
 msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
 msgstr "משתמש ב־Pod::HtmlEasy מאת מ. פ. גרסיליאנו"
 
-#: perldoc.cpp:188
+#: perldoc.cpp:185
 #, kde-format
 msgid "Michael Pyne"
 msgstr "מייקל פיין"
 
-#: perldoc.cpp:188
+#: perldoc.cpp:186
 #, kde-format
 msgid "Maintainer, port to KDE 4"
 msgstr "מתחזק, הסבה ל־KDE 4"
 
-#: perldoc.cpp:190
+#: perldoc.cpp:189
 #, kde-format
 msgid "Bernd Gehrmann"
 msgstr "ברנד גרמן"
 
-#: perldoc.cpp:190
+#: perldoc.cpp:189
 #, kde-format
 msgid "Initial implementation"
 msgstr "מימוש ראשוני"
 
-#: perldoc.cpp:191
+#: perldoc.cpp:190
 #, kde-format
 msgid "M. P. Graciliano"
 msgstr "מ. פ. גרסיליאנו"
 
-#: perldoc.cpp:191
+#: perldoc.cpp:190
 #, kde-format
 msgid "Pod::HtmlEasy"
 msgstr "Pod::HtmlEasy"
 
-#: perldoc.cpp:192
+#: perldoc.cpp:191
 #, kde-format
 msgid "Geoffrey Leach"
 msgstr "ג׳פרי ליץ׳"
 
-#: perldoc.cpp:192
+#: perldoc.cpp:191
 #, kde-format
 msgid "Pod::HtmlEasy current maintainer"
 msgstr "המתחזק הנוכחי של Pod::HtmlEasy"
 
-#: perldoc.cpp:193
+#: perldoc.cpp:192
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "צוות התרגום של KDE ישראל"
 
-#: perldoc.cpp:194
+#: perldoc.cpp:192
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
