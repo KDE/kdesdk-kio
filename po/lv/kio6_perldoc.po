@@ -1,0 +1,130 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the kdesdk-kio package.
+#
+# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesdk-kio\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-22 00:40+0000\n"
+"PO-Revision-Date: 2024-05-28 15:12+0300\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 24.02.2\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>Neviena lapa nav pieprasīta</title><body>Neviena lapa nav "
+"pieprasīta.  Varat sākt meklēt:<ul><li>functions using perldoc:/functions/"
+"foo</li>\n"
+"\n"
+"<li>BUJ ieraksti par perldoc:/faq/search_terms</li><li>Visi pārējie "
+"„perldoc“ dokumenti, izmantojot dokumenta nosaukumu, piemēram,<ul><li><a "
+"href='perldoc:/perlreftut'>perldoc:/perlreftut</a></li><li>or <a "
+"href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>„%1“ nav dokumentācijas</title><body>Nevar atrast "
+"dokumentāciju vienumam <b>„%2“</b></body></html>\n"
+
+#: perldoc.cpp:138
+#, kde-format
+msgid "Error in perldoc"
+msgstr "„perldoc“ kļūda"
+
+#: perldoc.cpp:178
+#, kde-format
+msgid "perldoc KIO worker"
+msgstr "„perldoc“ KIO strādnieks"
+
+#: perldoc.cpp:180
+#, kde-format
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr "KIO strādnieks, kas nodrošina piekļuvi „perldoc“ dokumentācijai"
+
+#: perldoc.cpp:182
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "Autortiesības 2007, 2008 Michael Pyne"
+
+#: perldoc.cpp:183
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr ""
+"Izmanto „Pod::HtmlEasy“, ko nodrošināja M. P. Graciliano un Geoffrey Leach"
+
+#: perldoc.cpp:185
+#, kde-format
+msgid "Michael Pyne"
+msgstr "Michael Pyne"
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "Uzturētājs, KDE 4 ports"
+
+#: perldoc.cpp:189
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: perldoc.cpp:189
+#, kde-format
+msgid "Initial implementation"
+msgstr "Sākotnējā implementācija"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "M. P. Graciliano"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "Pod::HtmlEasy"
+
+#: perldoc.cpp:191
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "Geoffrey Leach"
+
+#: perldoc.cpp:191
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "„Pod::HtmlEasy“ pašreizējais uzturētājs"
+
+#: perldoc.cpp:192
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Toms Trasūns"
+
+#: perldoc.cpp:192
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "toms.trasuns@posteo.net"
