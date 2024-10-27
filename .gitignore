@@ -17,3 +17,4 @@ Makefile
 CMakeLists.txt.user*
 *.unc-backup*
 .cmake/
+.clang-format
