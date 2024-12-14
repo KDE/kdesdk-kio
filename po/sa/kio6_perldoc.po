@@ -1,0 +1,124 @@
+# Sanskrit translations for kdesdk-kio package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the kdesdk-kio package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesdk-kio\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-22 00:40+0000\n"
+"PO-Revision-Date: 2024-12-13 19:09+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>पृष्ठं न अनुरोधितम्</title><body> कोऽपि पृष्ठः अनुरोधितः नासीत् । "
+"भवन्तः अन्वेष्टुं शक्नुवन्ति:<ul><li> perldoc:/functions/foo इत्यस्य उपयोगेन कार्याणि</"
+"li><li> perldoc:/faq/search_terms इत्यस्य उपयोगेन faq प्रविष्टयः</li><li> अन्ये सर्वे "
+"perldoc दस्तावेजाः दस्तावेजस्य नाम उपयुज्य, यथा<ul><li> <a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut इति</a></li><li> अथवा <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul></body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>%1 कृते दस्तावेजीकरणं नास्ति</title><body> <b>%2</b> कृते "
+"दस्तावेजीकरणं अन्वेष्टुं असमर्थः</body></html>\n"
+
+#: perldoc.cpp:138
+#, kde-format
+msgid "Error in perldoc"
+msgstr "perldoc इत्यत्र त्रुटिः"
+
+#: perldoc.cpp:178
+#, kde-format
+msgid "perldoc KIO worker"
+msgstr "perldoc KIO कार्यकर्ता"
+
+#: perldoc.cpp:180
+#, kde-format
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr "perldoc दस्तावेजीकरणस्य अभिगमनं प्रदातुं KIO कार्यकर्ता"
+
+#: perldoc.cpp:182
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "प्रतिलिपि अधिकार 2007, 2008 माइकल पाइन"
+
+#: perldoc.cpp:183
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr ""
+"M. P. Graciliano and Geoffrey Leach इत्यनेन Pod::HtmlEasy इत्यस्य उपयोगः भवति"
+
+#: perldoc.cpp:185
+#, kde-format
+msgid "Michael Pyne"
+msgstr "माइकल पाइन्"
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "अनुरक्षणकर्ता, KDE 4 प्रति पोर्ट्"
+
+#: perldoc.cpp:189
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "बर्न्ड गेहर्मन्"
+
+#: perldoc.cpp:189
+#, kde-format
+msgid "Initial implementation"
+msgstr "प्रारम्भिक कार्यान्वयन"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "एम. पी. ग्रासिलियानो"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "फली::Htmlसुलभ"
+
+#: perldoc.cpp:191
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "जेफ्री लीच्"
+
+#: perldoc.cpp:191
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "Pod::Htmlसुलभ वर्तमान परिपालक"
+
+#: perldoc.cpp:192
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: perldoc.cpp:192
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
