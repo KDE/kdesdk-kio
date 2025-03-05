@@ -119,13 +119,13 @@ msgstr "Aktueller Betreuer für Pod::HtmlEasy"
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Thomas Reitelbach"
+msgstr "Deutsches KDE-Übersetzungsteam"
 
 #: perldoc.cpp:192
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "tr@erdfunkstelle.de"
+msgstr "kde-i18n-de@kde.org"
 
 #~ msgid "Failed to fork"
 #~ msgstr "Fehler beim „fork“"
