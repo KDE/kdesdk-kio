@@ -56,16 +56,14 @@ msgid "Error in perldoc"
 msgstr "Earráid i perldoc"
 
 #: perldoc.cpp:178
-#, fuzzy, kde-format
-#| msgid "perldoc KIOSlave"
+#, kde-format
 msgid "perldoc KIO worker"
-msgstr "Sclábhaí KIO perldoc"
+msgstr ""
 
 #: perldoc.cpp:180
-#, fuzzy, kde-format
-#| msgid "KIOSlave to provide access to perldoc documentation"
+#, kde-format
 msgid "KIO worker to provide access to perldoc documentation"
-msgstr "Sclábhaí KIO a chuireann doiciméadú perldoc ar fáil"
+msgstr ""
 
 #: perldoc.cpp:182
 #, kde-format
@@ -129,6 +127,3 @@ msgstr "Kevin Scannell"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kscanne@gmail.com"
-
-#~ msgid "Failed to fork"
-#~ msgstr "Theip ar fork"
