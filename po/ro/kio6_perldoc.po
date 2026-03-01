@@ -1,0 +1,128 @@
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdesdk-kio package.
+# SPDX-FileCopyrightText: 2026 Sergiu Bivol <sergiu@cip.md>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesdk-kio\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:42+0000\n"
+"PO-Revision-Date: 2026-02-28 22:43+0000\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.12.2\n"
+
+#: perldoc.cpp:72
+#, kde-format
+msgid ""
+"<html><head><title>No page requested</title><body>No page was requested.  "
+"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
+"\n"
+"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
+"documents using the name of the document, like<ul><li><a href='perldoc:/"
+"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
+"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+msgstr ""
+"<html><head><title>Nicio pagină cerută</title><body>Nu a fost cerută nicio "
+"pagină. Puteți căuta:<ul><li>funcții folosind perldoc:/functions/foo</li>\n"
+"\n"
+"<li>întrebări frecvente folosind perldoc:/faq/search_terms</li><li>Toate "
+"celelalte documente perldoc folosind denumirea documentului, ca<ul><li><a "
+"href='perldoc:/perlreftut'>perldoc:/perlreftut</a></li><li>sau <a "
+"href='perldoc:/Net::HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
+"\n"
+"</body></html>\n"
+
+#: perldoc.cpp:91
+#, kde-format
+msgid ""
+"<html><head><title>No documentation for %1</title><body>Unable to find "
+"documentation for <b>%2</b></body></html>\n"
+msgstr ""
+"<html><head><title>Nicio documentație pentru %1</title><body>Documentația "
+"pentru <b>%2</b> nu poate fi găsită</body></html>\n"
+
+#: perldoc.cpp:138
+#, kde-format
+msgid "Error in perldoc"
+msgstr "Eroare în perldoc"
+
+#: perldoc.cpp:178
+#, kde-format
+msgid "perldoc KIO worker"
+msgstr "Lucrător KIO pentru perldoc"
+
+#: perldoc.cpp:180
+#, kde-format
+msgid "KIO worker to provide access to perldoc documentation"
+msgstr "Lucrător KIO ce oferă acces la documentația perldoc"
+
+#: perldoc.cpp:182
+#, kde-format
+msgid "Copyright 2007, 2008 Michael Pyne"
+msgstr "Drept de autor 2007, 2008 Michael Pyne"
+
+#: perldoc.cpp:183
+#, kde-format
+msgid "Uses Pod::HtmlEasy by M. P. Graciliano and Geoffrey Leach"
+msgstr "Folosește Pod::HtmlEasy de M. P. Graciliano și Geoffrey Leach"
+
+#: perldoc.cpp:185
+#, kde-format
+msgid "Michael Pyne"
+msgstr "Michael Pyne"
+
+#: perldoc.cpp:186
+#, kde-format
+msgid "Maintainer, port to KDE 4"
+msgstr "Responsabil, portarea la KDE 4"
+
+#: perldoc.cpp:189
+#, kde-format
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: perldoc.cpp:189
+#, kde-format
+msgid "Initial implementation"
+msgstr "Implementare inițială"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "M. P. Graciliano"
+msgstr "M. P. Graciliano"
+
+#: perldoc.cpp:190
+#, kde-format
+msgid "Pod::HtmlEasy"
+msgstr "Pod::HtmlEasy"
+
+#: perldoc.cpp:191
+#, kde-format
+msgid "Geoffrey Leach"
+msgstr "Geoffrey Leach"
+
+#: perldoc.cpp:191
+#, kde-format
+msgid "Pod::HtmlEasy current maintainer"
+msgstr "Responsabil actual pentru Pod::HtmlEasy"
+
+#: perldoc.cpp:192
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+#: perldoc.cpp:192
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@cip.md"
