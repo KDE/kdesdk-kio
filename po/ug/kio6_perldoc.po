@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: kio_perldoc\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2013-09-08 07:05+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"PO-Revision-Date: 2026-05-31 18:06-0400\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
 
 #: perldoc.cpp:72
 #, kde-format
@@ -30,15 +31,6 @@ msgid ""
 "\n"
 "</body></html>\n"
 msgstr ""
-"<html><head><title>No page requested</title><body>No page was requested.  "
-"You can search for:<ul><li>functions using perldoc:/functions/foo</li>\n"
-"\n"
-"<li>faq entries using perldoc:/faq/search_terms</li><li>All other perldoc "
-"documents using the name of the document, like<ul><li><a href='perldoc:/"
-"perlreftut'>perldoc:/perlreftut</a></li><li>or <a href='perldoc:/Net::"
-"HTTP'>perldoc:/Net::HTTP</a></li></ul></li></ul>\n"
-"\n"
-"</body></html>\n"
 
 #: perldoc.cpp:91
 #, kde-format
@@ -50,7 +42,7 @@ msgstr ""
 #: perldoc.cpp:138
 #, kde-format
 msgid "Error in perldoc"
-msgstr ""
+msgstr "perldoc تا خاتالىق كۆرۈلدى"
 
 #: perldoc.cpp:178
 #, kde-format
@@ -65,7 +57,7 @@ msgstr ""
 #: perldoc.cpp:182
 #, kde-format
 msgid "Copyright 2007, 2008 Michael Pyne"
-msgstr ""
+msgstr "نەشر ھوقۇقىغا ئىگە 2007, 2008 Michael Pyne"
 
 #: perldoc.cpp:183
 #, kde-format
@@ -95,7 +87,7 @@ msgstr ""
 #: perldoc.cpp:190
 #, kde-format
 msgid "M. P. Graciliano"
-msgstr ""
+msgstr "M. P. Graciliano"
 
 #: perldoc.cpp:190
 #, kde-format
@@ -105,7 +97,7 @@ msgstr ""
 #: perldoc.cpp:191
 #, kde-format
 msgid "Geoffrey Leach"
-msgstr ""
+msgstr "Geoffrey Leach"
 
 #: perldoc.cpp:191
 #, kde-format
@@ -116,10 +108,10 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
+msgstr "ئابدۇقادىر ئابلىز، غەيرەت كەنجى"
 
 #: perldoc.cpp:192
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
+msgstr "sahranbay@gmail.com, gheyret@gmail.com"
