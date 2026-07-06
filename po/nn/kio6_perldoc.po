@@ -1,12 +1,11 @@
 # Translation of kio6_perldoc to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2009, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2022-07-26 20:55+0200\n"
+"PO-Revision-Date: 2026-07-05 17:21+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -17,7 +16,7 @@ msgstr ""
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-"X-Generator: Lokalize 22.04.3\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: perldoc.cpp:72
 #, kde-format
@@ -32,7 +31,7 @@ msgid ""
 "\n"
 "</body></html>\n"
 msgstr ""
-"<html><head><title>Inga førespurd sida</title><body>Du ba ikkje om noko "
+"<html><head><title>Inga førespurd sida</title><body>Du bad ikkje om noko "
 "side. Du kan søkja etter:<ul><li>funksjonar med perldoc:/functions/foo</li>\n"
 "\n"
 "<li>FAQ-oppføringar med perldoc:/faq/search_terms</li><li>Alle andre perldoc-"
