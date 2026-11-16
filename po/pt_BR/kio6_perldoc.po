@@ -4,7 +4,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Diniz Bortolotto <diniz.bortolotto@gmail.com>, 2008.
-# Marcus Gama <marcus.gama@gmail.com>, 2008.
+# Marcus Gama <marcus.gama@kde.org>, 2008.
 # André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2010.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2019, 2022.
 msgid ""
